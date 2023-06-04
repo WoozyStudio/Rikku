@@ -1,0 +1,30 @@
+{
+  "name": "rikku",
+  "version": "0.0.1",
+  "description": "A powerful Discord utility bot",
+  "main": "src/bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WoozyStudio/Rikku.git"
+  },
+  "keywords": [
+    "discord",
+    "discord-bot",
+    "utils"
+  ],
+  "author": "Woozy's YT",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/WoozyStudio/Rikku/issues"
+  },
+  "homepage": "https://github.com/WoozyStudio/Rikku#readme",
+  "dependencies": {
+    "@discordjs/rest": "^1.7.1",
+    "colors": "^1.4.0",
+    "discord-api-types": "^0.37.43",
+    "discord.js": "^14.11.0"
+  }
+}
