@@ -9,3 +9,6 @@ package-lock.json
 
 # Ignore icons, logos and banners
 resources
+
+# Ignore templates
+src/templates
