@@ -1,0 +1,11 @@
+# Ignore modules
+node_modules
+.vscode
+
+# Ignore bot settings
+config
+config/config.json
+package-lock.json
+
+# Ignore icons, logos and banners
+resources
