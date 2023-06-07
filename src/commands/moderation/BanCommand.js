@@ -1,4 +1,5 @@
 const { SlashCommandBuilder, EmbedBuilder } = require("@discordjs/builders");
+const Color = require('../../utils/Colors.js');
 
 module.exports = {
     data: new SlashCommandBuilder()
@@ -23,7 +24,7 @@ module.exports = {
 
         const BanMessage = new EmbedBuilder()
         .setAuthor({ iconURL: `${interaction.user.displayAvatarURL({ size: 2048, dynamic: true })}`, name: `${interaction.user.tag} (${interaction.user.id})` })
-        .setColor(0xFF5C5C)
+        .setColor(Color.Red)
         .setDescription(`**Member:** ${user} (${user.id})\n**Action:** Ban\n**Reason:** ${reason || "No reason was given for this sanction."}\n \n> ${appealable || "This sanction can be appealed."}`)
         .setTimestamp();
 
